@@ -37,31 +37,40 @@ body {
     color: #e2dae2;
 
 }
-.corpo {
-    display: flex;
-    height: 500px;
-    width: auto;
+
+.corpo-1 {
     background-color: #1F2937;
-    border-top: 0.5px solid white;
+    border-top: 1px solid white;
+    heigh
 }
 .corpo-todo {
     display: flex;
-    align-items: center;
     flex-direction: row;
     justify-content: space-around;
+
 }
 .corpo-texto {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
 }
 .corpo-texto-titulo {
     font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
+    color: #F9FAF8
 }
 .corpo-texto-titulo-2 {
     font-size: 18px;
-    color: #E5E7EB;
-    align-self: center;
+    color: #e5e7eb;
+}
+.LUTAR {
+    background-color: #3882f6;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px;
+}
+.corpo-imagem {
+    border-radius: 20px;
 }
