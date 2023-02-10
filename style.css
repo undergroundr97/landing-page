@@ -5,7 +5,6 @@
 }
 body {
     font-size: 100%;
-    background
 }
 
 .cabecalho {
@@ -36,4 +35,33 @@ body {
     font-size: 30px;
     text-decoration: none;
     color: #e2dae2;
+
+}
+.corpo {
+    display: flex;
+    height: 500px;
+    width: auto;
+    background-color: #1F2937;
+    border-top: 0.5px solid white;
+}
+.corpo-todo {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.corpo-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.corpo-texto-titulo {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.corpo-texto-titulo-2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    align-self: center;
 }
