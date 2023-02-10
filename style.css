@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 100%;
+    background
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 2%;
+    border-radius: 0;
+    color: white;
+    font-family: cursive; 
+    max-height: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.cabecalho-logo {
+    width: 70px;
+    height: auto;
+    border-radius: 10%;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    align-self: center;
+
+}
+.cabecalho-item {
+    font-size: 30px;
+    text-decoration: none;
+    color: #e2dae2;
+}
