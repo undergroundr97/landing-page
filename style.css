@@ -61,7 +61,6 @@ a {
 }
 .button-header{
     background-color: #3882f6;
-    border: NONE;
     padding: 8px 30px;
     text-align: center;
     font-size: 15px;
@@ -133,8 +132,8 @@ a {
    font-style: italic;
    color: #1F2937;
    text-wrap: wrap;
-   padding-left: 350px;
-   padding-right: 350px;
+   width: 600px;
+   height: auto;
 }
 .quote p {
     align-self: flex-end;
