@@ -20,6 +20,14 @@ body {
 .header-logo{
     color: #F9FAF8;
     font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px
+}
+.header-logo-image {
+    height: 70px;
+    width: 70px;
 }
 .header-links{
     font-size: 18px;
@@ -115,7 +123,7 @@ a {
     width: 200px;
 }
 .cats:hover{
-    background-color: rgb(33, 71, 71);
+    background-color: rgb(105, 76, 139);
 }
 .quote {
     background-color: #E5E7EB;
@@ -178,7 +186,7 @@ a {
     transition-duration: 0.5s;
 }
 .call-to-button:hover{
-    background-color: cadetblue;
+    background-color: lightgreen;
 }
 .footer {
     background-color: #1F2937;
