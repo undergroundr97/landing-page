@@ -68,7 +68,7 @@ a {
     border-radius: 10px;
     margin-top: 20px;
     color: white;
-    transition-duration: 0.2s;
+    transition-duration: 0.5s;
     box-shadow: 0px 0px 2px;
     font-weight: 600;
     cursor: pointer;
@@ -86,9 +86,12 @@ a {
     align-items: center;
     height: 500px;
     width: auto;
+    margin-bottom: 60px;
 }
 .info{
     margin-top: 50px;
+    font-size: 36px;
+    font-weight: 800;
 }
 .cat-container {
     display: flex;
@@ -96,13 +99,13 @@ a {
     justify-content: space-between;
     gap: 60px;
     margin-top: 60px;
-    flex-wrap: wrap;
 }
 .cats {
     width: 200px;
     height: 200px;
     border: 5px solid #3882f6;
     border-radius: 20px;
+    transition-duration: 0.5s;
 }
 .cat-text {
     text-align: center;
@@ -113,5 +116,68 @@ a {
     width: 200px;
 }
 .cats:hover{
-    background-color: lightcyan;
+    background-color: rgb(33, 71, 71);
+}
+.quote {
+    background-color: #E5E7EB;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+}
+.quote-content {
+    display: flex;
+    flex-direction: column;
+   font-size: 36px;
+   font-style: italic;
+   color: #1F2937;
+   text-wrap: wrap;
+   padding-left: 350px;
+   padding-right: 350px;
+}
+.quote p {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 30px;
+}
+.call {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to {
+    display: flex;
+    background-color: #3882f6;
+    height: 150px;
+    width: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+.call-to-under{
+    color: #E5E7EB;
+    font-size: 16px;
+}
+.call-to-tittle {
+    color: #E5E7EB;
+    font-weight: 800;
+    font-size: 25px;
+}
+.call-to-button {
+    padding: 10px 30px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px;
+    transition-duration: 0.5s;
+}
+.call-to-button:hover{
+    background-color: lightcoral;
 }
